@@ -3,4 +3,21 @@ PRACTICAL 10:To create and setup the Git repository on Bitbucket using SSH.
 Create a Git repository
 Step 1. Create the repository
 Initially, the repository you create in Bitbucket is going to be empty without any code in it. That's okay because you will start adding some files to it soon. This Bitbucket repository will be the central repository for your files, which means that others can access that repository if you give them permission. After creating a repository, you'll copy a version to your local system—that way you can update it from one repo, then transfer those changes to the other.
+Do the following to create your repository:
+1.	From Bitbucket, click the + icon in the global sidebar and select Repository.
+Bitbucket displays the Create a new repository page. Take some time to review the dialog's contents. With the exception of the Repository type, everything you enter on this page you can later change.
+ 
+2.	Enter BitbucketStationLocations for the Name field.
+Bitbucket uses this Name in the URL of the repository. For example, if the user the_best has a repository called awesome_repo, the URL for that repository would be https://bitbucket.org/the_best/awesome_repo.
+3.	For Access level, leave the This is a private repository box checked.
+A private repository is only visible to you and those you give access to. If this box is unchecked, everyone can see your repository.
+4.	Pick Git for the Repository type. Keep in mind that you can't change the repository type after you click Create repository.
+5.	Click Create repository.
+Bitbucket creates your repository and displays its Overview page.
+Step 2. Explore your new repository
+Take some time to explore the repository you have just created. You should be on the repository's Overview page:
+ 
+Click + from the global sidebar for common actions for a repository. Click items in the navigation sidebar to see what's behind each one, including Settings to update repository details and other settings. To view the shortcuts available to navigate these items, press the ? key on your keyboard.
+When you click the Commits option in the sidebar, you find that you have no commits because you have not created any content for your repository. 
+
 
